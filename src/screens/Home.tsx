@@ -26,7 +26,7 @@ export function Home({ navigation }) {
         />
       )}
       ListFooterComponent={() => (
-        <AddNewUserBtn onPress={navigation.navigate("AddUser")} />
+        <AddNewUserBtn onPress={() => navigation.navigate("AddUser")} />
       )}
       numColumns={2}
       style={{
